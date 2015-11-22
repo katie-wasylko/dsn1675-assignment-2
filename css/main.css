@@ -25,30 +25,34 @@ html {
 
 .nav-top li {
   color: lightblue;
-  padding: 0 1em;
+  padding: 0;
+  margin: 0;
+  text-align: left;
 }
 
 .nav-top a,
 .nav-top:link,
 .nav-top:visited {
   text-decoration: none;
-  color: blue;
+  color: white;
 }
 
 .current {
   background-color: white;
-  color: blue;
+  color: grey;
   padding: 0.1em;
 }
 
 .curent a,
 .current:link,
 .current:visited {
-  color: blue;
+  color: grey;
 }
 
 .nav-check:checked ~ .nav-top {
 	display: block;
+  background-color: grey;
+  padding: 0.5em;
 }
 
 .nav-check {
@@ -59,4 +63,15 @@ html {
 
 .nav-check:checked ~ .nav-label {
 	background-color: grey;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 30px;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
 }
