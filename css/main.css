@@ -1,0 +1,62 @@
+html {
+  font-family: sans-serif;
+}
+
+.masthead {
+  padding: 0;
+  margin: 0;
+  background: lightblue;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.nav-top {
+    display: none;
+}
+
+.nav-top ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+
+.nav-top li {
+  color: lightblue;
+  padding: 0 1em;
+}
+
+.nav-top a,
+.nav-top:link,
+.nav-top:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+.current {
+  background-color: white;
+  color: blue;
+  padding: 0.1em;
+}
+
+.curent a,
+.current:link,
+.current:visited {
+  color: blue;
+}
+
+.nav-check:checked ~ .nav-top {
+	display: block;
+}
+
+.nav-check {
+	/* Put the checkbox off the top of the screen */
+	position: absolute;
+	top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+	background-color: grey;
+}
