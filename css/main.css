@@ -94,13 +94,84 @@ img {
   background-size: cover;
   background-position: center;
 }
-.image-wrapper h2 {
+
+.image-wrapper h3 {
   position: absolute;
-  top: 35%;
-  padding: 0;
+  top: 10%;
+  padding: 1.5em;
   width: 100%;
   color: black;
   text-align: center;
-  font-size: 32px;
-  font-weight: normal;
+  font-weight: bold;
+}
+
+.tour {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(http://placehold.it/310x110);
+  margin: 0.5em;
+  background-size: cover;
+  background-position: center;
+}
+
+.tour h2{
+  text-align: center;
+  padding-top: .8em;
+}
+
+.packages {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(http://placehold.it/310x110);
+  margin: 0.5em;
+  background-size: cover;
+  background-position: center;
+}
+
+.packages h2{
+  text-align: center;
+  padding-top: .8em;
+}
+
+.signup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(http://placehold.it/310x110);
+  margin: 0.5em;
+  background-size: cover;
+  background-position: center;
+}
+
+.signup h2{
+  text-align: center;
+  padding-top: .8em;
+}
+
+footer {
+  background-color: lightblue;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bottom ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+
+.nav-bottom li {
+  color: lightblue;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.nav-bottom a,
+.nav-bottom:link,
+.nav-bottom:visited {
+  text-decoration: none;
+  color: white;
 }
