@@ -156,6 +156,10 @@ footer {
   margin: 0;
 }
 
+h6 {
+  padding-left: .4em;
+}
+
 .nav-bottom ul {
   list-style-type: none;
   margin: 0;
@@ -164,9 +168,9 @@ footer {
 
 .nav-bottom li {
   color: lightblue;
-  padding: 0;
+  padding: 0 .1em;
   margin: 0;
-  display: block;
+  display: inline-block;
 }
 
 .nav-bottom a,
@@ -174,4 +178,30 @@ footer {
 .nav-bottom:visited {
   text-decoration: none;
   color: white;
+}
+
+h5 {
+  text-align: right;
+  padding-top: 3em;
+  padding-right: 0.4em;
+  padding-bottom: 0;
+}
+
+.copy {
+  padding-top: 1em;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h1 a,
+h1:link,
+h1:visited {
+  text-decoration: none;
+  color: black;
 }
