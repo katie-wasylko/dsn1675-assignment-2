@@ -107,47 +107,69 @@ img {
 
 .tour {
   position: relative;
-  width: 100%;
   height: 100%;
   background-image: url(http://placehold.it/310x110);
-  margin: 0.5em;
+  margin: 0;
   background-size: cover;
   background-position: center;
 }
 
 .tour h2{
   text-align: center;
-  padding-top: .8em;
+  padding-top: .4em;
+}
+
+.tour a,
+.tour:link,
+.tour:visited {
+  text-decoration: none;
+  color: black;
 }
 
 .packages {
   position: relative;
-  width: 100%;
   height: 100%;
   background-image: url(http://placehold.it/310x110);
-  margin: 0.5em;
+  margin: 0;
   background-size: cover;
   background-position: center;
 }
 
 .packages h2{
   text-align: center;
-  padding-top: .8em;
+  padding-top: .4em;
+}
+
+.packages a,
+.packages:link,
+.packages:visited {
+  text-decoration: none;
+  color: black;
 }
 
 .signup {
   position: relative;
-  width: 100%;
   height: 100%;
   background-image: url(http://placehold.it/310x110);
-  margin: 0.5em;
+  margin: 0;
   background-size: cover;
   background-position: center;
 }
 
 .signup h2{
   text-align: center;
-  padding-top: .8em;
+  padding-top: .4em;
+}
+
+.signup a,
+.signup:link,
+.signup:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  margin: .5em;
 }
 
 footer {
@@ -204,4 +226,27 @@ h1:link,
 h1:visited {
   text-decoration: none;
   color: black;
+}
+
+.stat {
+  padding: 1em;
+}
+
+.stat ul {
+  padding-top: 0;
+  padding-left: 1em;
+}
+
+.stat h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.th2 {
+  padding-top: 1em;
+}
+
+.price {
+  padding: 1em;
 }
