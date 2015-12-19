@@ -32,27 +32,24 @@
         </nav>
       </div>
   </div>
-
-  <h2 class="yotta th2">Sign Up</h2>
-
-	<div id="register" class="animate form">
+  <div>
 			<form  action="mysuperscript.php" autocomplete="on">
-				<h1> Sign up </h1>
+				<h2 class="yotta th2">Sign up</h1>
         <p>
           <label for="firstname">First Name</label>
-          <input id="firstname">
+          <input type="text" id="firstname" required>
         </p>
         <p>
           <label for="lastname">Last Name</label>
-          <input id="lastname">
+          <input type="text" id="lastname" required>
         </p>
 				<p>
 					<label for="usernamesignup">Your username</label>
-					<input id="usernamesignup"/>
+					<input type="text "id="usernamesignup" required/>
 				</p>
 				<p>
 					<label for="emailsignup"> Your email</label>
-					<input id="emailsignup"/>
+					<input type="email" id="emailsignup" required/>
 				</p>
 
         <p>
@@ -60,30 +57,49 @@
           <input type="email" id="emailsignup_confirm" required>
 				<p>
 					<label for="passwordsignup">Your password </label>
-					<input id="passwordsignup"/>
+					<input type="password" id="passwordsignup" required/>
 				</p>
 				<p>
 					<label for="passwordsignup_confirm">Please confirm your password </label>
-					<input id="passwordsignup_confirm"/>
+					<input type="password"id="passwordsignup_confirm" required/>
 				</p>
 
         <fieldset>
         <legend>Shipping Address</legend>
         <div>
           <label for="street-address">Street Address</label>
-          <input id="street-address">
+          <input type="text" id="street-address" required>
         </div>
         <div>
           <label for="city">City</label>
-          <input id="city">
+          <input type="text" id="city" required>
         </div>
         <div>
+          <label for="province">Province or State</label>
+            <select id="province">
+              <optgroup label="Canada">
+                <option>Alberta</option>
+                <option>British Columbia</option>
+                <option>Manitoba</option>
+                <option>New Brunswick</option>
+                <option>Newfoundland/Labrador</option>
+                <option>Nova Scotia</option>
+                <option>Northwest Territories</option>
+                <option>Nunavut</option>
+                <option>Ontario</option>
+                <option>PEI</option>
+                <option>Québec</option>
+                <option>Saskatchewan</option>
+                <option>Yukon</option>
+              </optgroup>
+            </select>
+        <div>
           <label for="country">Country</label>
-          <input id="country">
+          <input type="text" id="country" required>
         </div>
         <div>
           <label for="postal-code">Postal Code</label>
-          <input id="postal-code">
+          <input type="text" id="postal-code" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" required>
         </div>
         </fieldset>
         <fieldset>
@@ -91,70 +107,60 @@
         </fieldset>
         <fieldset>
             <legend>Card Details</legend>
-              <ol>
-                <li>
+
                   <fieldset>
                     <legend>Card Type</legend>
-                      <ol>
-                          <li>
+
                               <input id=visa name=cardtype type=radio />
                               <label for=visa>VISA</label>
-                          </li>
-                          <li>
+
                               <input id=amex name=cardtype type=radio />
                               <label for=amex>AmEx</label>
-                          </li>
-                          <li>
+
                               <input id=mastercard name=cardtype type=radio />
                               <label for=mastercard>Mastercard</label>
-                          </li>
-                      </ol>
+
                   </fieldset>
-                </li>
-                <li>
+                  <fieldset>
+                    <legend>Card Information</legend>
+                    <p>
                       <label for=cardnumber>Card Number</label>
                       <input id=cardnumber name=cardnumber type=number required />
-                </li>
-                <li>
+                    </p>
+                    <p>
                       <label for=secure>Security Code</label>
                       <input id=secure name=secure type=number required />
-                </li>
-                <li>
+                    </p>
+                    <p>
                       <label for=namecard>Name on Card</label>
                       <input id=namecard name=namecard type=text required />
-                </li>
-                <li>
+                    </p>
+                  </fieldset>
                   <fieldset>
                       <legend>Billing Address</legend>
                       <div>
                         <label for="street-address">Street Address</label>
-                        <input id="street-address">
+                        <input id="street-address" type="text" required>
                       </div>
                       <div>
                         <label for="city">City</label>
-                        <input id="city">
+                        <input id="city" type="text" required>
                       </div>
                       <div>
                         <label for="country">Country</label>
-                        <input id="country">
+                        <input id="country" type="text" required>
                       </div>
                       <div>
                         <label for="postal-code">Postal Code</label>
-                        <input id="postal-code">
+                        <input id="postal-code" type="text" required>
                       </div>
                   </fieldset>
-                </li>
-              </ol>
           </fieldset>
           <fieldset>
               <button type=submit>Sign Up</button>
           </fieldset>
-
-			</form>
-	</div>
-
-	</div>
-</div>
+		</form>
+  </div>
 
   <footer>
     <div class="grid">
