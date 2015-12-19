@@ -5,7 +5,7 @@ html {
 .masthead {
   padding: 0;
   margin: 0;
-  background: lightblue;
+  background: ghostwhite;
 }
 
 .img-flex {
@@ -78,7 +78,11 @@ html {
 }
 
 h1 {
-  padding: .5em;
+  padding: .9em;
+}
+
+main {
+  background-color: lightblue;
 }
 
 img {
@@ -89,83 +93,125 @@ img {
 .image-wrapper {
   position: relative;
   width: 100%;
-  background-image: url(http://placehold.it/320x220);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/header.jpg);
   padding-top: 60%;
   background-size: cover;
   background-position: center;
 }
 
-.image-wrapper h3 {
+.image-wrapper h2 {
   position: absolute;
-  top: 10%;
+  top: 1%;
   padding: 1.5em;
   width: 100%;
-  color: black;
+  color: white;
   text-align: center;
   font-weight: bold;
+  font-size: 2.5rem;
+  line-height: normal;
+}
+
+.image-wrapper h3 {
+  position: absolute;
+  top: 60%;
+  padding: 1.5em;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: normal;
 }
 
 .tour {
   position: relative;
-  height: 100%;
-  background-image: url(http://placehold.it/310x110);
-  margin: 0;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 1em;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/tour.jpg);
+  padding-top: 50%;
   background-size: cover;
   background-position: center;
 }
 
 .tour h2{
+  position: absolute;
+  top: 1%;
+  padding: 2em;
+  width: 100%;
+  color: white;
   text-align: center;
-  padding-top: .4em;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: normal;
 }
 
 .tour a,
 .tour:link,
 .tour:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .packages {
   position: relative;
-  height: 100%;
-  background-image: url(http://placehold.it/310x110);
-  margin: 0;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 1em;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/packages.jpg);
+  padding-top: 50%;
   background-size: cover;
   background-position: center;
 }
 
 .packages h2{
+  position: absolute;
+  top: 1%;
+  padding: 2em;
+  width: 100%;
+  color: white;
   text-align: center;
-  padding-top: .4em;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: normal;
 }
 
 .packages a,
 .packages:link,
 .packages:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .signup {
   position: relative;
-  height: 100%;
-  background-image: url(http://placehold.it/310x110);
-  margin: 0;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/signup.jpg);
+  padding-top: 50%;
   background-size: cover;
   background-position: center;
 }
 
 .signup h2{
+  position: absolute;
+  top: 1%;
+  padding: 2em;
+  width: 100%;
+  color: white;
   text-align: center;
-  padding-top: .4em;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: normal;
 }
 
 .signup a,
 .signup:link,
 .signup:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .button {
@@ -173,7 +219,7 @@ img {
 }
 
 footer {
-  background-color: lightblue;
+  background-color: midnightblue;
   padding: 0;
   margin: 0;
 }
